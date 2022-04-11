@@ -1,0 +1,101 @@
+Windows Registry Editor Version 5.00
+
+;???? ???????? ????? ?????? ??? ???? ? ??? ? ????? ???? Windows-????????? ??????????? ???????????? ??????? ??????.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage]
+@="C_1251.NLS"
+"866"="c_866.nls"
+"ACP"="1251"
+"OEMCP"="866"
+"MACCP"="10007"
+"OEMHAL"="vga866.fon"
+"1250"="c_1251.nls"
+"1251"="c_1251.nls"
+"1252"="c_1251.nls"
+"1253"="c_1251.nls"
+"1254"="c_1251.nls"
+"1255"="c_1251.nls"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontMapper]
+@="204"  
+"ARIAL"=dword:00000000 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Arabic Transparent"="Arial"
+"Arabic Transparent Bold"="Arial Bold"
+"Arabic Transparent,0"="Arial,178"
+"Arabic Transparent Bold,0"="Arial Bold,178"
+"Helvetica"="Arial"
+"Arial,0"="Arial,204"  
+"Arial Baltic,186"="Arial,186"
+"Arial CE,238"="Arial,238"
+"Arial CYR,204"="Arial,204"
+"Arial Greek,161"="Arial,161"
+"Arial TUR,162"="Arial,162"
+"Courier,0"="Courier New,204"
+"Courier,204"="Courier New,204"
+"Courier New Baltic,186"="Courier New,186"
+"Courier New CE,238"="Courier New,238"
+"Courier New CYR,204"="Courier New,204"
+"Courier New Greek,161"="Courier New,161"
+"Courier New TUR,162"="Courier New,162"
+"Comic Sans MS,0"="Comic Sans MS,204" 
+"Times"="Times New Roman"
+"Times New Roman Baltic,186"="Times New Roman,186"
+"Times New Roman CE,238"="Times New Roman,238"
+"Times New Roman CYR,204"="Times New Roman,204"
+"Times New Roman Greek,161"="Times New Roman,161"
+"Times New Roman TUR,162"="Times New Roman,162"
+"MS Shell Dlg 2"="Tahoma"
+"Tahoma Armenian"="Tahoma"
+"Helv"="MS Sans Serif"
+"Tms Rmn"="MS Serif"
+"David Transparent"="David"
+"Miriam Transparent"="Miriam"
+"Fixed Miriam Transparent"="Miriam Fixed"
+"Rod Transparent"="Rod"
+"FangSong_GB2312"="FangSong"
+"KaiTi_GB2312"="KaiTi"
+"MS Shell Dlg"="Microsoft Sans Serif"
+"Arial,0"="Arial,204"
+"Arial Cyr,0"="Arial,204"
+"Comic Sans MS,0"="Comic Sans MS,204"
+"Courier,0"="Courier New,204"
+"Courier,204"="Courier New,204"
+"Courier New Cyr,0"="Courier New,204"
+"Fixedsys,0"="Fixedsys,204"
+"Helv,0"="MS Sans Serif,204"
+"MS Sans Serif,0"="MS Sans Serif,204"
+"MS Serif,0"="MS Serif,204"
+"Small Fonts,0"="Small Fonts,204"
+"System,0"="System,204"
+"Tahoma,0"="Tahoma,204"
+"Times New Roman,0"="Times New Roman,204"
+"Times New Roman Cyr,0"="Times New Roman,204"
+"Tms Rmn,0"="MS Serif,204"
+"Verdana,0"="Verdana,204"
+"Courier New,0"="Courier New,204"
+"Arial Narrow,0"="Arial Narrow,204"
+"Trebuchet MS,0"="Trebuchet MS,204"
+"Georgia,0"="Georgia,204"
+"Microsoft Sans Serif,0"="Microsoft Sans Serif,204"
+"Segoe UI"="Tahoma"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont]
+"0"="Lucida Console"
+"00"="Lucida Console"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout\DosKeybCodes]
+"00000409"="ru" 
+
+;Enable ClearType on the Welcome Screen!  win8 text size...
+;=========================
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"FontSmoothing"="2"
+"FontSmoothingType"=dword:00000002
+"LogPixels"=dword:00000096
+; Enable ClearType Tuning
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FontSmoothing"="2"
+"FontSmoothingType"=dword:00000002
+"FontSmoothingGamma"=dword:000003e8
+"FontSmoothingOrientation"=dword:00000001
+"LogPixels"=dword:00000096

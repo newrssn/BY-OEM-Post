@@ -1,0 +1,2 @@
+
+x=msgbox("OK!" ,, "WAIT...")

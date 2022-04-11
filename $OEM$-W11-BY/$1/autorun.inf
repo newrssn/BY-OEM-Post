@@ -1,0 +1,11 @@
+[AutoRun.Amd64]
+;Label=WIN11Sys64
+;open=setup.exe
+Icon=Windows.ico
+;UseAutoPlay=1
+
+[AutoRun]
+;Label=WIN11Sys64
+;open=sources\SetupError.exe x64
+Icon=Windows.ico
+;UseAutoPlay=1

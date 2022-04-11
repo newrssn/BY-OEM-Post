@@ -1,0 +1,127 @@
+Windows Keyboard shortcuts
+
+http://windows.microsoft.com/is-is/windows/keyboard-shortcuts#keyboard-shortcuts=windows-7
+_______________________________________________________________________________________________________________________________________
+
+Windows key: Switch between Modern Desktop Start screen and the last accessed application
+Windows key + C: Access the charms bar
+Windows key + Tab: Access the Modern Desktop Taskbar
+Windows key + I: Access the Settings charm
+Windows key + H: Access the Share charm
+Windows key + K: Access the Devices charm
+Windows key + Q: Access the Apps Search screen
+Windows key + F: Access the Files Search screen
+Windows key + W: Access the Settings Search screen
+Windows key + P: Access the Second Screen bar
+Windows key + Z: Brings up the App Bar when you have a Modern Desktop App running
+Windows key + X: Access the Windows Tools Menu
+Windows key + O: Lock screen orientation
+Windows key + . : Move the screen split to the right
+Windows key + Shift + . : Move the screen split to the left
+Windows key + V: View all active Toasts/Notifications
+Windows key + Shift + V: View all active Toasts/Notifications in reverse order
+Windows key + PrtScn: Takes a screenshot of the screen and automatically saves it in the Pictures folder as Screenshot
+Windows key + Enter: Launch Narrator        
+Windows key + E: Open Computer
+Windows key + R: Open the Run dialog box
+Windows key + U: Open Ease of Access Center
+Windows key + Ctrl + F: Open Find Computers dialog box
+Windows key + Pause/Break: Open the System page
+Windows key + 1..10: Launch a program pinned on the Taskbar in the position indicated by the number
+Windows key + Shift + 1..10: Launch a new instance of a program pinned on the Taskbar in the position indicated by the number
+Windows key + Ctrl + 1..10: Access the last active instance of a program pinned on the Taskbar in the position indicated by the number
+Windows key + Alt + 1..10: Access the Jump List of a program pinned on the Taskbar in the position indicated by the number
+Windows key + B: Select the first item in the Notification Area and then use the arrow keys to cycle through the items Press Enter to open the selected item
+Windows key + Ctrl + B: Access the program that is displaying a message in the Notification Area
+Windows key + T: Cycle through the items on the Taskbar
+Windows key + M: Minimize all windows
+Windows key + Shift + M: Restore all minimized windows
+Windows key + D: Show/Hide Desktop (minimize/restore all windows)
+Windows key + L: Lock computer
+Windows key + Up Arrow: Maximize current window
+Windows key + Down Arrow: Minimize/restore current window
+Windows key + Home: Minimize all but the current window
+Windows key + Left Arrow: Tile window on the left side of the screen
+Windows key + Right Arrow: Tile window on the right side of the screen
+Windows key + Shift + Up Arrow: Extend current window from the top to the bottom of the screen
+Windows key + Shift + Left/Right Arrow: Move the current window from one monitor to the next
+Windows key + F1: Launch Windows Help and Support
+
+PageUp: Scroll forward on the Modern Desktop Start screen
+PageDown: Scroll backward on the Modern Desktop Start screen
+Esc: Close  a charm
+Ctrl + Esc: Switch between Modern Desktop Start screen and the last accessed application
+Ctrl + Mouse scroll wheel: Activate the Semantic Zoom on the Modern Desktop screen
+
+Alt: Display a hidden Menu Bar
+Alt + D: Select the Address Bar
+Alt + P: Display the Preview Pane in Windows Explorer
+Alt + Tab: Cycle forward through open windows
+Alt + Shift + Tab: Cycle backward through open windows
+Alt + F: Close the current window Open the Shut Down Windows dialog box from the Desktop
+Alt + Spacebar: Access the Shortcut menu for current window
+Alt + Esc: Cycle between open programs in the order that they were opened
+Alt + F4: Close Application
+
+Alt + Enter: Open the Properties dialog box of the selected item
+Alt + PrtScn: Take a screen shot of the active Window and place it in the clipboard
+Alt + Up Arrow: Move up one folder level in Windows Explorer (Like the Up Arrow in XP)
+Alt + Left Arrow: Display the previous folder 
+Alt + Right Arrow: Display the next folder
+Shift + Insert: CD/DVD Load CD/DVD without triggering Autoplay or Autorun
+Shift + Delete: Permanently delete the item (rather than sending it to the Recycle Bin)
+Shift + F6: Cycle backward through elements in a window or dialog box
+Shift + F10: Access the context menu for the selected item
+Shift + Tab: Cycle backward through elements in a window or dialog box
+Shift + Click: Select a consecutive group of items
+Shift + Click on a Taskbar button: Launch a new instance of a program
+Shift + Right-click on a Taskbar button: Access the context menu for the selected item
+Ctrl + A: Select all items
+Ctrl + C: Copy the selected item
+Ctrl + X: Cut the selected item
+Ctrl + V: Paste the selected item
+Ctrl + D: Delete selected item
+Ctrl + Z: Undo an action
+Ctrl + Y: Redo an action
+Ctrl + N: Open a new window in Windows Explorer
+Ctrl + W: Close current window in Windows Explorer
+Ctrl + E: Select the Search box in the upper right corner of a window
+Ctrl + Shift + N: Create new folder
+Ctrl + Shift + Esc: Open the Windows Task Manager
+Ctrl + Alt + Tab: Use arrow keys to cycle through open windows
+Ctrl + Alt + Delete: Access the Windows Security screen 
+Ctrl + Click: Select multiple individual items
+Ctrl + Click and drag an item: Copies that item in the same folder
+Ctrl + Shift + Click and drag an item: Creates a shortcut for that item in the same folder
+Ctrl + Tab:  Move forward through tabs
+Ctrl + Shift + Tab: Move backward through tabs
+Ctrl + Shift + Click on a Taskbar button: Launch a new instance of a program as an Administrator
+Ctrl + Click on a grouped Taskbar button: Cycle through the instances of a program in the group
+F1: Display Help
+F2: Rename a file
+F3: Open Search
+F4: Display the Address Bar list
+F5: Refresh display
+F6: Cycle forward through elements in a window or dialog box
+F7: Display command history in a Command Prompt
+F10: Display hidden Menu Bar
+F11: Toggle full screen display
+Tab: Cycle forward through elements in a window or dialog box
+PrtScn: Take a screen shot of the entire screen and place it in the clipboard
+Home: Move to the top of the active window
+End: Move to the bottom of the active window
+Delete: Delete the selected item
+Backspace: Display the previous folder in Windows Explorer  Move up one folder level in Open or Save dialog box
+Esc: Close a dialog box
+Num Lock Enabled + Plus (+): Display the contents of the selected folder 
+Num Lock Enabled + Minus (-): Collapse the selected folder
+Num Lock Enabled + Asterisk (*): Expand all subfolders under the selected folder    
+
+Press Shift 5 times Turn StickyKeys on or off
+Hold down right Shift for 8 seconds Turn FilterKeys on or off
+Hold down Num Lock for 5 seconds Turn ToggleKeys on or off
+
+
+
+ All Keyboard shortcuts:
+http://windows.microsoft.com/is-is/windows/keyboard-shortcuts#keyboard-shortcuts=windows-7
