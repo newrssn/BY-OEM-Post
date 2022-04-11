@@ -1,7 +1,7 @@
 color 02
 @echo off
 mode con cols=80 lines=45
-title 					Cursor Install @ IM 2022
+title 					Cursor Install @ DM 2022
 cls
 
 @echo.
