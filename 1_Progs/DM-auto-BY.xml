@@ -69,7 +69,7 @@
             </Password>
           </LocalAccount>
           <LocalAccount wcm:action="add">
-            <Name>PEGS</Name>
+            <Name>PEGAS</Name>
             <Group>Users</Group>
             <Password>
               <Value></Value>
