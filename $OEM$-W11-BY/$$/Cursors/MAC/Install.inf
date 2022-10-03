@@ -32,7 +32,7 @@ working.ani
 
 [Strings]
 CUR_DIR       = "Windows\Cursors\Big Sur"
-SCHEME_NAME   = "Big Sur"
+SCHEME_NAME   = "MAC Big Sur"
 pointer       = "arrow.cur"
 alternate     = "arrow_i.cur"
 busy          = "busy.ani"

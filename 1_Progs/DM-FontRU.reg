@@ -86,6 +86,14 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout\DosKeybCodes]
 "00000409"="ru" 
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor]
+"CompletionChar"=dword:00000009
+"DefaultColor"=dword:00000000
+"EnableExtensions"=dword:00000001
+"PathCompletionChar"=dword:00000009
+"AutoRun"="chcp 65001"
+
+
 ;Enable ClearType on the Welcome Screen!  win8 text size...
 ;=========================
 [HKEY_USERS\.DEFAULT\Control Panel\Desktop]

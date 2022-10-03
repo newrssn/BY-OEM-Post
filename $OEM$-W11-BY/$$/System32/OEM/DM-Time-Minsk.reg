@@ -1,25 +1,5 @@
 Windows Registry Editor Version 5.00
-;http://www.pool.ntp.org/zone/by
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers]
-@="5"
-"1"="time.windows.com"
-"2"="time.nist.gov"
-"3"="time-nw.nist.gov"
-"4"="ru.pool.ntp.org"
-"5"="by.pool.ntp.org"
 
-; Belarus Standard Time MINSK TIME 24h
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
-"Bias"=dword:ffffff4c
-"DaylightBias"=dword:ffffffc4
-"DaylightName"="@tzres.dll,-1971"
-"DaylightStart"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
-"StandardBias"=dword:00000000
-"StandardName"="@tzres.dll,-1972"
-"StandardStart"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
-"TimeZoneKeyName"="Belarus Standard Time"
-"DynamicDaylightTimeDisabled"=dword:00000000
-"ActiveTimeBias"=dword:ffffff4c
 
 ;Дата в трее в формате "День недели число.месяц.год" [Пн 21.10.13]
 [HKEY_CURRENT_USER\Control Panel\International]

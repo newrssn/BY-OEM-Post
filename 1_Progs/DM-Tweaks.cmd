@@ -1,7 +1,7 @@
 Color 1F
 @echo off
-mode con cols=180 lines=40
-title 				*** SCHEDULED TASKS SERVICES tweaks ***
+mode con cols=150 lines=20
+title 				*** Выключаем сервисы ***
 cls
 @echo.
 @echo.
@@ -137,10 +137,9 @@ reg add "HKCU\SOFTWARE\Microsoft\Siuf\Rules" /t REG_DWORD /v NumberOfSIUFInPerio
 reg add "HKCU\Control Panel\International\User Profile" /t REG_DWORD /v HttpAcceptLanguageOptOut /d 1 /f
 
 @echo.
-@echo.
-echo ^<ESC^>[34m [34m *** Disable Cortana & Telemetry *** "***Disabling Cortana and Bing search...***[0m
+@echo. *** Disable Cortana  Telemetry and Bing search...***
 timeout /t 3 > nul
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d 0
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d 0 ́/f
 reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v "CortanaEnabled" /t REG_DWORD /d 0 /f
 REM *** Hide the search box from taskbar. You can still search by pressing the Win key and start typing what you're looking for ***
 REM 0 = hide completely, 1 = show only icon, 2 = show long search box
@@ -176,20 +175,7 @@ REM schtasks /Change /TN "Microsoft\Windows\CloudExperienceHost\CreateObjectTask
 schtasks /Change /TN "Microsoft\Office\Office 15 Subscription Heartbeat" /Disable
 schtasks /Change /TN "Microsoft\Office\OfficeTelemetryAgentFallBack" /Disable
 schtasks /Change /TN "Microsoft\Office\OfficeTelemetryAgentLogOn" /Disable
-
-@echo.
-@echo.
-; moved to new user cmd
-;echo ^<ESC^>[93m [93m*** Uninstall OneDrive ***   *** Uninstall OneDrive ***   *** Uninstall OneDrive ***[0m
-;start /wait "" "%SYSTEMROOT%\SYSWOW64\ONEDRIVESETUP.EXE" /UNINSTALL
-;"%SYSTEMROOT%\SYSWOW64\ONEDRIVESETUP.EXE" /UNINSTALL
-;rd C:\OneDriveTemp /Q /S >NUL 2>&1
-;rd "%USERPROFILE%\OneDrive" /Q /S >NUL 2>&1
-;rd "%LOCALAPPDATA%\Microsoft\OneDrive" /Q /S >NUL 2>&1
-;rd "%PROGRAMDATA%\Microsoft OneDrive" /Q /S >NUL 2>&1
-;reg add "HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" /f /v Attributes /t REG_DWORD /d 0 >NUL 2>&1
-;reg add "HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" /f /v Attributes /t REG_DWORD /d 0 >NUL 2>&1
-@echo.  	*** OneDrive has been removed. Windows Explorer needs to be restarted.
+;reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\common\officeupdate" /v "PreventTeamsInstall" /t  REG_DWORD /d 0 /f
 timeout /t 8 > nul
 @echo.
 @echo.
@@ -209,6 +195,11 @@ timeout /t 3 > nul
 get-service Diagtrack,DmwApPushService,OneSyncSvc,XblAuthManager,XblGameSave,XboxNetApiSvc,TrkWks,WMPNetworkSvc | stop-service -passthru | set-service -startuptype disabled
 timeout /t 5 > nul
 
+@echo.
+@echo 	* HUD-Evolution-Turquoise-EZEvolution Install
+InfDefaultInstall.exe "%SystemRoot%\Cursors\HUD-Evolution-Turquoise-EZEvolution\install.inf"
+InfDefaultInstall.exe "%SystemRoot%\Cursors\MAC\install.inf"
+@echo  Done.
 
 
 @echo.
