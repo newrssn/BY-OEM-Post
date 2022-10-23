@@ -23,7 +23,7 @@ REG ADD %KEY%\105 /VE /D "K-Lite_Codec_Pack_Mega" /f
 REG ADD %KEY%\105 /V 1 /D "%cdrom%\1_Progs\klcp_mega_unattended.cmd" /f
 
 REG ADD %KEY%\110 /VE /D "7ZIP x64" /f
-REG ADD %KEY%\110 /V 1 /D "%cdrom%\1_Progs\7z1900-x64.exe /S" /f
+REG ADD %KEY%\110 /V 1 /D "%cdrom%\1_Progs\7z2201-x64.exe /S" /f
 
 REG ADD %KEY%\120 /VE /D "WinRAR x64" /f
 REG ADD %KEY%\120 /V 1 /D "%cdrom%\1_Progs\winrar-x64-611ru.exe /S" /f
