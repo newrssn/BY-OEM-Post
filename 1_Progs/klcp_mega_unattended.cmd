@@ -14,7 +14,7 @@ for %%i in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do if exist %%i:\1_
 @echo.
 @echo.
 @echo Installing: K-Lite Mega Codec Pack............. WAIT
-@%cdrom%\1_Progs\K-Lite_Codec_Pack_1687_Mega.exe /verysilent /norestart /LoadInf="%cdrom%\1_Progs\klcp.ini"
+@%cdrom%\1_Progs\K-Lite_Codec_Pack_1725_Mega.exe /verysilent /norestart /LoadInf="%cdrom%\1_Progs\klcp.ini"
 @echo.
 @echo.
 echo.
