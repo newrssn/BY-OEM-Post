@@ -64,10 +64,10 @@ regedit /s "%cdrom%\1_Progs\DM-win11RU22.reg"
 timeout /t 2 > nul
 
 @echo.
-@echo	* CCLEANER
+@echo	* CCLEANER - Удалён...
 rem START "CCleaner" /d "%ProgramFiles%\CCleaner" /I /B /wait "%ProgramFiles%\CCleaner\CCleaner64.exe" /AUTO
 rem START /d "%ProgramFiles%\CCleaner\" /i /wait CCleaner64.exe /AUTO
-%ProgramFiles%\CCleaner\CCleaner64.exe /AUTO
+rem %ProgramFiles%\CCleaner\CCleaner64.exe /AUTO
 @echo  Done.
 timeout /t 5 > nul
 

@@ -1,5 +1,5 @@
-Label %cdrive% w11sysRU
-bcdedit /set description "Win 11 Optimum"
+Label %cdrive% win11RU
+bcdedit /set description "Win 11 Minsk-22"
 bcdedit /timeout 8
 
 
