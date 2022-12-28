@@ -10,15 +10,15 @@ rem color 0B
 rem mode con:cols=100 lines=15
 @cls
 
-echo "                                    ";
-echo "##### ####  #   # ####  ##### ##### ";
-echo "#   # #   # #  ## #   # #       #   ";
-echo "#   # ####  # # # ####  ####    #   ";
-echo "#   # #     ##  # #   # #       #   ";
-echo "#   # #     #   # ####  #####   #   ";
-echo "                                    ";
-echo "                                    ";
-echo "                                    ";
+echo.                                     
+echo     ##### ####  #   # ####  ##### ##### 
+echo     #   # #   # #  ## #   # #       #   
+echo     #   # ####  # # # ####  ####    #   
+echo     #   # #     ##  # #   # #       #   
+echo     #   # #     #   # ####  #####   #   
+echo.                                        
+echo.                                        
+echo.                                        
                                            
 
 @echo off
@@ -53,11 +53,11 @@ timeout /t 1 > nul
 
 @echo.
 @echo.
-@echo * ТЕМА - Светлая
+@echo * ТЕМА - Светлая  => Жми ОК
 REM :regedit /s %WINDIR%\System32\OEM\DM-ThemeL.reg
 timeout /t 1 > nul
 %WINDIR%\Resources\Themes\МИНСК22-День.theme
-@echo * Заставка - Часы 
+@echo * Заставка - Часы => Жми ОК
 %WINDIR%\System32\rundll32.exe desk.cpl,InstallScreenSaver %WINDIR%\SysWOW64\Panerai Luminor Marina.scr
 timeout /t 1 > nul
 
@@ -129,15 +129,15 @@ DEL /s /f /q "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
 
 @echo.
 
-echo "                                                        ";
-echo "####  #####   #   #####  ###  #####    #   ####  #  ##  ";
-echo " #     #  #  # #  #   # #   #  #  #   # #  #   # # #  # ";
-echo " ####  #  # ##### #     #   #  #  #  ##### ####  ###  # ";
-echo " #  #  #  # #   # #     #   #  ####  #   # #     # #  # ";
-echo "##### #   # #   # #      ###  #    # #   # #     #  ##  ";
-echo "                                                        ";
+echo.                                                         
+echo      ####  #####   #   #####  ###  #####    #   ####  #  ## 
+echo      #     #  #  # #  #   # #   #  #  #   # #  #   # # #  # 
+echo      ####  #  # ##### #     #   #  #  #  ##### ####  ###  # 
+echo      #  #  #  # #   # #     #   #  ####  #   # #     # #  # 
+echo     ##### #   # #   # #      ###  #    # #   # #     #  ##  
+echo.                                                         
 
-@echo * Рекомендую пере-Загрузиться  *
+@echo           * Рекомендую пере-Загрузиться  *
 PAUSE >nul
 exit
 

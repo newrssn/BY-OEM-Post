@@ -4,3 +4,4 @@ Windows Registry Editor Version 5.00
 ;Дата в трее в формате "День недели число.месяц.год" [Пн 21.10.13]
 [HKEY_CURRENT_USER\Control Panel\International]
 "sShortDate"="ddd dd.MM.yy"
+"sShortTime"="HH:mm"
