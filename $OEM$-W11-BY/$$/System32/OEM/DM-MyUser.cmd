@@ -2,9 +2,26 @@
 
  Color 8F
 @echo off
-mode con cols=80 lines=30
+mode con cols=100 lines=30
 title 					 » Добро Пожаловать «
 cls
+@ECHO OFF
+rem color 0B
+rem mode con:cols=100 lines=15
+@cls
+
+echo "                                    ";
+echo "##### ####  #   # ####  ##### ##### ";
+echo "#   # #   # #  ## #   # #       #   ";
+echo "#   # ####  # # # ####  ####    #   ";
+echo "#   # #     ##  # #   # #       #   ";
+echo "#   # #     #   # ####  #####   #   ";
+echo "                                    ";
+echo "                                    ";
+echo "                                    ";
+                                           
+
+@echo off
 
 
 CHOICE /C дн /M "Можно установить свои настройки? д/н По умолчанию ДА через 3 минуты " /t 180 /D д
@@ -61,7 +78,7 @@ powercfg -change -standby-timeout-ac 60
 powercfg -change -standby-timeout-dc 20
 powercfg -change -hibernate-timeout-ac 0
 powercfg -change -hibernate-timeout-dc 0
-powercfg /h on
+powercfg /h off
 @echo.
 @echo.
 @echo.------------------------------------------------
@@ -78,6 +95,16 @@ REM :PowerShell Import-StartLayout -LayoutPath %WINDIR%\System32\OEM\DM-LayoutMo
 REM :PowerShell Import-StartLayout -LayoutPath "C:\Windows\System32\OEM\DM-LayoutMod.json"
 @echo.
 @echo.timeout /t 1 > nul 
+
+@echo.
+@echo.
+@echo.------------------------------------
+@echo.	*** Меняю настройки меню Правого клика
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+ @echo.   ***Сделано меню как на 7ке ***
+@echo.------------------------------------
+@echo.
+@echo.timeout /t 1 > nul
 
 @echo.
 @echo.
@@ -101,7 +128,15 @@ DEL /s /f /q "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
 
 
 @echo.
-@echo * БлагоДарю  *
+
+echo "                                                        ";
+echo "####  #####   #   #####  ###  #####    #   ####  #  ##  ";
+echo " #     #  #  # #  #   # #   #  #  #   # #  #   # # #  # ";
+echo " ####  #  # ##### #     #   #  #  #  ##### ####  ###  # ";
+echo " #  #  #  # #   # #     #   #  ####  #   # #     # #  # ";
+echo "##### #   # #   # #      ###  #    # #   # #     #  ##  ";
+echo "                                                        ";
+
 @echo * Рекомендую пере-Загрузиться  *
 PAUSE >nul
 exit
