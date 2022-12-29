@@ -37,7 +37,7 @@ REG ADD %KEY%\130 /V 1 /D "%cdrom%\1_Progs\npp.8.3.1.Installer.x64.exe /S" /f
 REG ADD %KEY%\260 /VE /D "Службы и Сервисы" /f
 REG ADD %KEY%\260 /V 1 /D "%cdrom%\1_Progs\DM-Tweaks.cmd" /f
 REG ADD %KEY%\265 /V 1 /D "%cdrom%\1_Progs\DM-Cursors.cmd" /f
-REG ADD %KEY%\267 /V 1 /D "%cdrom%\1_Progs\DM-PS-APPS.PS1" /f
+REG ADD %KEY%\267 /V 1 /D "powershell.exe -file "%cdrom%\1_Progs\DM-PS-APPS.PS1"" /f
 
 REG ADD %KEY%\300 /VE /D "Уборка" /f
 REG ADD %KEY%\300 /V 1 /D "%cdrom%\1_Progs\DM-Cleanup.cmd" /f
